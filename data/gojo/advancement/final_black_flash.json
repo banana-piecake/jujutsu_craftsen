@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tinted_glass",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": "Blessed by the sparks of black.",
+    "description": "Land the 4th Black Flash with Divergent Fist.",
+    "frame": "goal"
+  },
+  "parent": "gojo:ratio",
+  "criteria": {
+    "e": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "e"
+    ]
+  ]
+}

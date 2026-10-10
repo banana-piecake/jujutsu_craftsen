@@ -1,0 +1,1 @@
+execute at @s run particle dust_color_transition{from_color:[1.000,0.000,0.000],to_color:[1.000,0.329,0.329],scale:3} ~ ~ ~ 0 0 0 0 5 normal

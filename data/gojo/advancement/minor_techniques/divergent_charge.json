@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "charge": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": {
+              "divergent": "fist"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "gojo:minor_techniques/black_flash/charge"
+  }
+}

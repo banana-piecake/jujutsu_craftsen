@@ -1,0 +1,50 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "oxo",
+    "xvx",
+    "oxo"
+  ],
+  "key": {
+    "x": [
+      "redstone"
+    ],
+    "o": [
+      "minecraft:iron_ingot"
+    ],
+    "v": [
+      "minecraft:painting"
+    ]
+  },
+  "result": {
+    "id": "minecraft:iron_ingot",
+    "components": {
+      "minecraft:potion_contents": {
+        "potion": "minecraft:thick",
+        "custom_color": 7995392
+      },
+      "minecraft:item_model": "minecraft:potion",
+      "minecraft:item_name": {
+        "text": "Blood Manipulation",
+        "color": "#ff7575"
+      },
+      "minecraft:custom_data": {
+        "blood": "manipulation"
+      },
+      "minecraft:consumable": {
+        "consume_seconds": 0,
+        "animation": "drink"
+      },
+      "minecraft:food": {
+        "nutrition": 0,
+        "saturation": 0,
+        "can_always_eat": true
+      },
+      "minecraft:use_cooldown": {
+        "seconds": 15,
+        "cooldown_group": "bloodmanipulation"
+      }
+    }
+  }
+}

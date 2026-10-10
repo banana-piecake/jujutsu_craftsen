@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:light_blue_stained_glass"
+    },
+    "title": "Jujutsu Craftsen",
+    "description": "And so it begins...",
+    "background": "minecraft:block/light_blue_stained_glass",
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "e": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "requirements": [
+    [
+      "e"
+    ]
+  ]
+}

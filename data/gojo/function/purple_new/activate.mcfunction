@@ -1,0 +1,4 @@
+scoreboard players set @s purple_startup -15
+scoreboard players set @s gojo_hollow_purple_cooldown 0
+#advancement revoke @s only gojo:purple
+#give @s stick[consumable={consume_seconds:0.1,animation:"none"},food={nutrition:0,saturation:0,can_always_eat:true},custom_data={gojo:"purple"},item_model="purple_stained_glass",use_cooldown={seconds:90,cooldown_group:"purple"},item_name=[{"atlas":"minecraft:gui","color":"#5203A1","shadow_color":2112959487,"sprite":"mob_effect/levitation"},{"bold":true,"color":"#5203A1","shadow_color":1358445567,"text":"Hollow Purple"},{"atlas":"minecraft:gui","color":"#5203A1","shadow_color":2112959487,"sprite":"mob_effect/levitation"}],enchantment_glint_override=true,attribute_modifiers=[{id:"gravity",type:"gravity",amount:-1,operation:"add_multiplied_total"}]] 1

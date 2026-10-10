@@ -1,0 +1,58 @@
+{
+  "description": "purple",
+  "supported_items": "#minecraft:enchantable/armor",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "any"
+  ],
+  "effects": {
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "minecraft:explode",
+          "attribute_to_user": true,
+          "damage_type": "minecraft:player_explosion",
+          "knockback_multiplier": 0.4,
+          "radius": 9,
+          "create_fire": false,
+          "block_interaction": "block",
+          "small_particle": {
+            "type": "minecraft:dragon_breath",
+            "power": 0
+          },
+          "large_particle": {
+            "type": "minecraft:dragon_breath",
+            "power": 0
+          },
+          "sound": "minecraft:entity.generic.explode"
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:apply_impulse",
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 0.3
+        }
+      }
+    ]
+  }
+}

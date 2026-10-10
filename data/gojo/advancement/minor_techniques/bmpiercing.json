@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "boodman": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "input": {
+              "sneak": false,
+              "sprint": false
+            }
+          }
+        },
+        "item": {
+          "components": {
+            "minecraft:custom_data": {
+              "blood": "manipulation"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "gojo:minor_techniques/piercingblood"
+  }
+}

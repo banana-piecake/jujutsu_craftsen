@@ -1,0 +1,421 @@
+{
+  "description": "Natural Strength",
+  "supported_items": "#minecraft:enchantable/foot_armor",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 1,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 1,
+  "slots": [
+    "feet"
+  ],
+  "effects": {
+    "minecraft:tick": [
+      {
+        "requirements": {
+          "condition": "minecraft:all_of",
+          "terms": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "jjcdash": 40
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "input": {
+                    "forward": true,
+                    "backward": false,
+                    "left": false,
+                    "right": false,
+                    "sprint": true
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "effect": {
+          "type": "minecraft:apply_impulse",
+          "direction": [
+            0,
+            0,
+            1.5
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 1
+        }
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:all_of",
+          "terms": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "jjcdash": 40
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "input": {
+                    "forward": false,
+                    "backward": true,
+                    "left": false,
+                    "right": false,
+                    "sprint": true
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "effect": {
+          "type": "minecraft:apply_impulse",
+          "direction": [
+            0,
+            0,
+            -1.5
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 1
+        }
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:all_of",
+          "terms": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "jjcdash": 40
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "input": {
+                    "forward": false,
+                    "backward": false,
+                    "left": false,
+                    "right": true,
+                    "sprint": true
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "effect": {
+          "type": "minecraft:apply_impulse",
+          "direction": [
+            -1.5,
+            0,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 1
+        }
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:all_of",
+          "terms": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "jjcdash": 40
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "input": {
+                    "forward": false,
+                    "backward": false,
+                    "left": true,
+                    "right": false,
+                    "sprint": true
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "effect": {
+          "type": "minecraft:apply_impulse",
+          "direction": [
+            1.5,
+            0,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 1
+        }
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:all_of",
+          "terms": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "jjcdash": 40
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "input": {
+                    "forward": true,
+                    "backward": false,
+                    "left": false,
+                    "right": true,
+                    "sprint": true
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "effect": {
+          "type": "minecraft:apply_impulse",
+          "direction": [
+            -1.5,
+            0,
+            1.5
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 1
+        }
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:all_of",
+          "terms": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "jjcdash": 40
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "input": {
+                    "forward": true,
+                    "backward": false,
+                    "left": true,
+                    "right": false,
+                    "sprint": true
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "effect": {
+          "type": "minecraft:apply_impulse",
+          "direction": [
+            1.5,
+            0,
+            1.5
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 1
+        }
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:all_of",
+          "terms": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "jjcdash": 40
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "input": {
+                    "forward": false,
+                    "backward": true,
+                    "left": true,
+                    "right": false,
+                    "sprint": true
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "effect": {
+          "type": "minecraft:apply_impulse",
+          "direction": [
+            1.5,
+            0,
+            -1.5
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 1
+        }
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:all_of",
+          "terms": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "jjcdash": 40
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "input": {
+                    "forward": false,
+                    "backward": true,
+                    "left": false,
+                    "right": true,
+                    "sprint": true
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "effect": {
+          "type": "minecraft:apply_impulse",
+          "direction": [
+            -1.5,
+            0,
+            -1.5
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 1
+        }
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:all_of",
+          "terms": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "input": {
+                    "sprint": true
+                  }
+                }
+              }
+            },
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "jjcdash": 40
+              }
+            }
+          ]
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "gojo:dash"
+        }
+      }
+    ],
+    "minecraft:attributes": [
+      {
+        "attribute": "minecraft:max_health",
+        "id": "minecraft:max_health",
+        "amount": 20,
+        "operation": "add_value"
+      },
+      {
+        "attribute": "minecraft:movement_speed",
+        "id": "minecraft:movement_speed",
+        "amount": 0.2,
+        "operation": "add_multiplied_total"
+      },
+      {
+        "attribute": "minecraft:jump_strength",
+        "id": "minecraft:jump_strength",
+        "amount": 0.1,
+        "operation": "add_multiplied_total"
+      },
+      {
+        "attribute": "minecraft:safe_fall_distance",
+        "id": "minecraft:safe_fall_distance",
+        "amount": 15,
+        "operation": "add_value"
+      }
+    ]
+  }
+}

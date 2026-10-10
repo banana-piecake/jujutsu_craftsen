@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:redstone_block",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": "Wait did Gojo actually do this?",
+    "description": "Unlock Reversal Red Maximum."
+  },
+  "parent": "gojo:gojo_rework/red",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

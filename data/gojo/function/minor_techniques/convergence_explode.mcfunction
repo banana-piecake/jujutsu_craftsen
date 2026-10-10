@@ -1,0 +1,5 @@
+execute as @e[tag=convergence,distance=0..15] at @e[tag=convergence,distance=0..15] run execute as @e[distance=0..3] run damage @s 8 minecraft:explosion
+execute as @e[tag=convergence,distance=0..15] at @e[tag=convergence,distance=0..15] run summon tnt ~ ~ ~ {fuse:0,explosion_power:2,block_state:{Name:"minecraft:red_stained_glass"}}
+execute as @e[tag=convergence,distance=0..15] at @e[tag=convergence,distance=0..15] run kill @s
+advancement revoke @s only gojo:minor_techniques/bmconvexplode
+give @s iron_ingot[potion_contents={potion:"minecraft:thick",custom_color:7995392},item_model="minecraft:potion",item_name={"color":"#FF7575","text":"Blood Manipulation"},custom_data={blood:"manipulation"},consumable={consume_seconds:0,animation:"drink"},food={nutrition:0,saturation:0,can_always_eat:true},use_cooldown={seconds:15,cooldown_group:"bloodmanipulation"}] 1

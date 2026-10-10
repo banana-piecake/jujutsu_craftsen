@@ -1,0 +1,13 @@
+execute at @s run summon armor_stand ~ ~ ~ {NoGravity:1b,Invulnerable:1b,Invisible:1b,Tags:["kamutoke"]}
+execute at @s run summon armor_stand ~ ~ ~ {NoGravity:1b,Invulnerable:1b,Invisible:1b,Tags:["kamutoke"]}
+execute at @s run summon armor_stand ~ ~ ~ {NoGravity:1b,Invulnerable:1b,Invisible:1b,Tags:["kamutoke"]}
+execute at @s run summon armor_stand ~ ~ ~ {NoGravity:1b,Invulnerable:1b,Invisible:1b,Tags:["kamutoke"]}
+execute at @s run summon armor_stand ~ ~ ~ {NoGravity:1b,Invulnerable:1b,Invisible:1b,Tags:["kamutoke"]}
+execute at @s run summon armor_stand ~ ~ ~ {NoGravity:1b,Invulnerable:1b,Invisible:1b,Tags:["kamutoke"]}
+execute at @s run summon armor_stand ~ ~ ~ {NoGravity:1b,Invulnerable:1b,Invisible:1b,Tags:["kamutoke"]}
+execute at @s run summon armor_stand ~ ~ ~ {NoGravity:1b,Invulnerable:1b,Invisible:1b,Tags:["kamutoke"]}
+execute at @s run summon armor_stand ~ ~ ~ {NoGravity:1b,Invulnerable:1b,Invisible:1b,Tags:["kamutoke"]}
+execute at @s run summon armor_stand ~ ~ ~ {NoGravity:1b,Invulnerable:1b,Invisible:1b,Tags:["kamutoke"]}
+execute at @s run spreadplayers ~ ~ 8 16 false @e[tag=kamutoke,distance=0..15,limit=10,sort=nearest]
+give @s blaze_rod[custom_data={gojo:"kamutoke"},item_name={"color":"gold","text":"Supreme Martial Solution"},consumable={consume_seconds:1.2,animation:"trident"},lore=["Also known as the Kamutoke."],attribute_modifiers=[{id:"kamutoke:damage",type:"attack_damage",amount:3,operation:"add_value",slot:"mainhand"}],enchantment_glint_override=true,use_cooldown={seconds:15,cooldown_group:"kamutoke"}] 1
+advancement revoke @s only gojo:cursed_tools/kamutoke_burst

@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ender_pearl",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": "Now I just need to learn to do it long distance...",
+    "description": "Unlock Teleportation."
+  },
+  "parent": "gojo:gojo_rework/unlock_limitless",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,3 @@
+execute as @s at @s run summon item ~ ~ ~ {NoGravity:1b,Age:4800,Health:200,PickupDelay:32767,Tags:["convergence"],Item:{id:"minecraft:redstone_block",count:1}}
+advancement revoke @s only gojo:minor_techniques/bmconvergence
+give @s iron_ingot[potion_contents={potion:"minecraft:thick",custom_color:7995392},item_model="minecraft:potion",item_name={"color":"#FF7575","text":"Blood Manipulation"},custom_data={blood:"manipulation"},consumable={consume_seconds:0,animation:"drink"},food={nutrition:0,saturation:0,can_always_eat:true},use_cooldown={seconds:15,cooldown_group:"bloodmanipulation"}] 1

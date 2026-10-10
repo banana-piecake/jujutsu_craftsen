@@ -1,0 +1,6 @@
+execute at @s run function gojo:sukuna/shrine_models/create
+execute at @s run summon armor_stand ~ ~ ~ {Invulnerable:1b,Invisible:1b,Tags:["shrine","malevolent"]}
+execute at @s run summon block_display ~ ~ ~ {shadow_radius:20f,shadow_strength:1f,Tags:["shrine"]}
+scoreboard players set @n[type=minecraft:armor_stand,tag=malevolent] shrinetimer 3
+give @s stick[consumable={consume_seconds:3,animation:"bow"},item_model="red_stained_glass_pane",item_name=[{"color":"#590000","text":"M"},{"color":"#630404","text":"a"},{"color":"#6E0808","text":"l"},{"color":"#780C0C","text":"e"},{"color":"#831010","text":"v"},{"color":"#8D1414","text":"o"},{"color":"#971818","text":"l"},{"color":"#A21C1C","text":"e"},{"color":"#AC2020","text":"n"},{"color":"#B62424","text":"t "},{"color":"#C12828","text":"S"},{"color":"#CB2C2C","text":"h"},{"color":"#D63030","text":"r"},{"color":"#E03434","text":"i"},{"color":"#EA3838","text":"n"},{"color":"#FF4040","text":"e"}],food={nutrition:1,saturation:1,can_always_eat:true},custom_data={sukuna:"shrine"},use_cooldown={seconds:90,cooldown_group:"shrine"}] 1
+advancement revoke @s only gojo:sukuna/shrine

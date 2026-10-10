@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:purple_stained_glass"
+    },
+    "title": "Nah, I'd win.",
+    "description": "Become the Strongest of Today.",
+    "frame": "goal"
+  },
+  "parent": "gojo:jujutsu_craftsen",
+  "criteria": {
+    "msd": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:stick",
+          "components": {},
+          "predicates": {
+            "minecraft:custom_data": {
+              "gojo": "moveset"
+            }
+          }
+        }
+      }
+    }
+  }
+}

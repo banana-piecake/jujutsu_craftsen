@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:stick",
+    "X": "#minecraft:iron_tool_materials",
+    "v": [
+      "minecraft:diamond"
+    ]
+  },
+  "pattern": [
+    "  X",
+    "vX ",
+    "#v "
+  ],
+  "result": {
+    "components": {
+      "minecraft:unbreakable": {},
+      "minecraft:enchantments": {
+        "gojo:ratio": 1,
+        "gojo:sparksofblack": 1
+      },
+      "minecraft:item_name": {
+        "text": "Nanami's Cleaver",
+        "color": "#dbf8ff"
+      }
+    },
+    "count": 1,
+    "id": "minecraft:iron_sword"
+  }
+}

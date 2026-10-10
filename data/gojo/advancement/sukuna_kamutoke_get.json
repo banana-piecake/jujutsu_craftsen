@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blaze_rod",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": "Back to the Heian Era.",
+    "description": "Obtain the Supreme Martial Solution as Sukuna.",
+    "frame": "challenge"
+  },
+  "parent": "gojo:sukuna_unlock",
+  "criteria": {
+    "has_diamond": {
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:custom_data": {
+                "gojo": "kamutoke"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_diamond"
+    ]
+  ]
+}

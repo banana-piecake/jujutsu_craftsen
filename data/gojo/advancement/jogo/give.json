@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "msd": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:netherite_ingot",
+          "components": {},
+          "predicates": {
+            "minecraft:custom_data": {
+              "jogo": "give"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "gojo:jogo/give"
+  }
+}

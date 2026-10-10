@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:goat_horn"
+    },
+    "title": "Don't move!",
+    "description": "Utilise Cursed Speech for the first time."
+  },
+  "parent": "gojo:jujutsu_craftsen",
+  "criteria": {
+    "cursed_speech": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": {
+              "cursed": "speech"
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cursed_speech"
+    ]
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:elytra"
+    },
+    "title": "I thought these were from some kinda locust, guy.",
+    "description": "Obtain the Grasshopper Wings."
+  },
+  "parent": "gojo:cursed_speech_unlock",
+  "criteria": {
+    "gr": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "gojo:grasshopper"
+      }
+    }
+  }
+}

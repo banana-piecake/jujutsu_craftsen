@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "msd": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "input": {
+              "sneak": true
+            }
+          }
+        },
+        "item": {
+          "items": "minecraft:stick",
+          "components": {},
+          "predicates": {
+            "minecraft:custom_data": {
+              "sukuna": "cleave"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "gojo:sukuna/cleave_rework/activate_spiderweb"
+  }
+}

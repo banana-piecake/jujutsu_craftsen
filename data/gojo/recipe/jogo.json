@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xox",
+    "ovo",
+    "xox"
+  ],
+  "key": {
+    "x": [
+      "minecraft:fire_charge"
+    ],
+    "o": [
+      "minecraft:magma_block"
+    ],
+    "v": [
+      "minecraft:lava_bucket"
+    ]
+  },
+  "result": {
+    "id": "minecraft:stick",
+    "components": {
+      "minecraft:custom_data": {
+        "jogo": "summon"
+      },
+      "minecraft:item_name": {
+        "text": "Ashes of Disaster",
+        "type": "text",
+        "extra": [
+          ""
+        ],
+        "color": "#a03737",
+        "shadow_color": 7361039,
+        "bold": true
+      },
+      "minecraft:item_model": "orange_dye",
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:consumable": {
+        "consume_seconds": 3,
+        "animation": "brush",
+        "sound": "minecraft:entity.elder_guardian.curse",
+        "has_consume_particles": true
+      }
+    },
+    "count": 1
+  },
+  "show_notification": true
+}

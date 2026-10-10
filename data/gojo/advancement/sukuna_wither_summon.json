@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gold_block"
+    },
+    "title": "Mahoraga! Help!",
+    "description": "As Sukuna, summon the wither.",
+    "frame": "challenge",
+    "hidden": true
+  },
+  "parent": "gojo:sukuna_unlock",
+  "criteria": {
+    "summoned": {
+      "conditions": {
+        "player": {
+          "team": "sukuna"
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "wither"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:summoned_entity"
+    }
+  },
+  "requirements": [
+    [
+      "summoned"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

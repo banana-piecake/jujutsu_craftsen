@@ -1,0 +1,31 @@
+{
+  "criteria": {
+    "kamutoke": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "input": {
+              "sneak": true
+            }
+          }
+        },
+        "item": {
+          "components": {
+            "minecraft:custom_data": {
+              "gojo": "kamutoke"
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "kamutoke"
+    ]
+  ],
+  "rewards": {
+    "function": "gojo:cursed_tools/kamutoke_activate_thunder_burst"
+  }
+}

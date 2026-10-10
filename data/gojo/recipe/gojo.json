@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xox",
+    "ovo",
+    "xox"
+  ],
+  "key": {
+    "x": [
+      "minecraft:ender_eye"
+    ],
+    "o": [
+      "minecraft:crying_obsidian"
+    ],
+    "v": [
+      "minecraft:nether_star"
+    ]
+  },
+  "result": {
+    "id": "minecraft:stick",
+    "components": {
+      "minecraft:custom_data": {
+        "gojo": "moveset"
+      },
+      "minecraft:item_name": {
+        "text": "Gojo Moveset",
+        "type": "text",
+        "extra": [
+          ""
+        ],
+        "color": "#8437a0",
+        "shadow_color": 11010202,
+        "font": "minecraft:uniform",
+        "bold": true
+      },
+      "minecraft:item_model": "minecraft:repeating_command_block",
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:consumable": {
+        "consume_seconds": 3,
+        "animation": "brush",
+        "sound": "minecraft:entity.elder_guardian.curse",
+        "has_consume_particles": true
+      }
+    },
+    "count": 1
+  },
+  "show_notification": true
+}

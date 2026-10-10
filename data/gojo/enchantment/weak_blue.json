@@ -1,0 +1,55 @@
+{
+  "description": "Weak Blue",
+  "supported_items": "diamond",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "any"
+  ],
+  "effects": {
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "minecraft:explode",
+          "attribute_to_user": true,
+          "knockback_multiplier": -0.6,
+          "offset": [
+            0,
+            1,
+            0
+          ],
+          "radius": 5,
+          "block_interaction": "none",
+          "small_particle": {
+            "type": "minecraft:dust_color_transition",
+            "from_color": 7143164,
+            "to_color": 2929614,
+            "scale": 4
+          },
+          "large_particle": {
+            "type": "minecraft:dust_color_transition",
+            "from_color": 7143164,
+            "to_color": 2929614,
+            "scale": 4
+          },
+          "sound": "minecraft:ui.toast.out"
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "gojo:gojo_rework/blue_entity"
+        }
+      }
+    ]
+  }
+}

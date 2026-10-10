@@ -1,0 +1,7 @@
+execute at @s run summon skeleton ~ ~ ~ {DeathLootTable:"gojo:jogo",Team:"jogo",Tags:["jogo"],CustomName:{"bold":true,"color":"gold","text":"Jogo"},equipment:{feet:{id:"minecraft:netherite_boots",count:1},legs:{id:"minecraft:netherite_leggings",count:1},chest:{id:"minecraft:golden_chestplate",count:1,components:{"minecraft:trim":{material:"minecraft:netherite",pattern:"minecraft:eye"}}},head:{id:"minecraft:decorated_pot",count:1,components:{"minecraft:pot_decorations":["minecraft:burn_pottery_sherd","minecraft:burn_pottery_sherd","minecraft:burn_pottery_sherd","minecraft:burn_pottery_sherd"]}},mainhand:{id:"minecraft:iron_sword",count:1,components:{"minecraft:item_model":"purple_stained_glass","minecraft:enchantments":{"fire_aspect":1,"knockback":3,"gojo:blackflash":1}}},offhand:{id:"minecraft:purple_stained_glass",count:1,components:{"minecraft:enchantment_glint_override":true}}},drop_chances:{mainhand:0.000},attributes:[{id:"minecraft:movement_speed",base:0.5},{id:"minecraft:max_health",base:100},{id:"minecraft:safe_fall_distance",base:100},{id:"minecraft:scale",base:1.1}]}
+execute at @s run scoreboard players set @n[tag=jogo] coffincooldown 1
+execute at @s run scoreboard players set @n[tag=jogo] meteorcooldown 1
+execute at @s run scoreboard players set @n[tag=jogo] flamecooldown 1
+execute at @s run scoreboard players set @n[tag=jogo] insectscooldown 1
+execute at @s run scoreboard players set @n[tag=jogo] focuscooldown 1
+advancement revoke @s only gojo:jogo/summon

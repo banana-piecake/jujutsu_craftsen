@@ -1,0 +1,1 @@
+execute at @s run particle minecraft:gust ~ ~1 ~

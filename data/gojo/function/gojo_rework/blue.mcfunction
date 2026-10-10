@@ -1,0 +1,2 @@
+execute at @s run summon armor_stand ^ ^1 ^10 {Invulnerable:1b,Marker:1b,Invisible:1b,Tags:["weak_blue"],DisabledSlots:4144959,equipment:{chest:{id:"minecraft:echo_shard",count:1,components:{"minecraft:enchantments":{"gojo:weak_blue":1}}}}}
+scoreboard players set @s gojo_blue_cooldown 0

@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "msd": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:stick",
+          "components": {},
+          "predicates": {
+            "minecraft:custom_data": {
+              "gojo": "red"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "gojo:red"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "criteria": {
+    "projection": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "input": {
+              "sneak": false
+            }
+          }
+        },
+        "item": {
+          "components": {
+            "minecraft:custom_data": {
+              "projection": "sorcery"
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "projection"
+    ]
+  ],
+  "rewards": {
+    "function": "gojo:minor_techniques/projection_check_attack"
+  }
+}

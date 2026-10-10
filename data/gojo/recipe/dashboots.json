@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": "diamond",
+    "V": [
+      "minecraft:feather"
+    ]
+  },
+  "pattern": [
+    "XVX",
+    "X X"
+  ],
+  "result": {
+    "components": {
+      "minecraft:item_name": "Athletic Boots",
+      "minecraft:trim": {
+        "material": "minecraft:amethyst",
+        "pattern": "minecraft:flow"
+      },
+      "minecraft:unbreakable": {},
+      "minecraft:enchantments": {
+        "gojo:dash": 1
+      }
+    },
+    "count": 1,
+    "id": "minecraft:diamond_boots"
+  }
+}

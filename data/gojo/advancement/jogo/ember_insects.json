@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "msd": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:stick",
+          "components": {},
+          "predicates": {
+            "minecraft:custom_data": {
+              "jogo": "insects"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "gojo:jogo/ember_insects"
+  }
+}

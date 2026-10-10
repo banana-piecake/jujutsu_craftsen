@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "x",
+    "y",
+    "z"
+  ],
+  "key": {
+    "x": [
+      "minecraft:echo_shard"
+    ],
+    "y": [
+      "glass_pane"
+    ],
+    "z": [
+      "minecraft:breeze_rod"
+    ]
+  },
+  "result": {
+    "id": "minecraft:iron_sword",
+    "components": {
+      "minecraft:custom_data": {
+        "projection": "sorcery"
+      },
+      "minecraft:kinetic_weapon": {
+        "delay_ticks": 0,
+        "contact_cooldown_ticks": 10,
+        "forward_movement": 0,
+        "damage_multiplier": 0
+      },
+      "minecraft:swing_animation": {
+        "duration": 30,
+        "type": "stab"
+      },
+      "minecraft:enchantments": {
+        "gojo:projection": 1
+      },
+      "minecraft:item_name": "Onion Skinner"
+    }
+  }
+}

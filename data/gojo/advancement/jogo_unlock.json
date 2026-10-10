@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lava_bucket"
+    },
+    "title": "You are strong.",
+    "description": "Consume the Disaster Flames.",
+    "frame": "challenge"
+  },
+  "parent": "gojo:jogo_kill",
+  "criteria": {
+    "msd": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:netherite_ingot",
+          "components": {},
+          "predicates": {
+            "minecraft:custom_data": {
+              "jogo": "give"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "description": "Divergent Fist",
+  "supported_items": "#minecraft:swords",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "requirements": {
+          "condition": "minecraft:entity_scores",
+          "entity": "direct_attacker",
+          "scores": {
+            "black_flash": {
+              "min": -100,
+              "max": 0
+            },
+            "divergent_fist_charge": 10
+          }
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "gojo:minor_techniques/black_flash/divergent_fist_victim"
+        },
+        "enchanted": "attacker",
+        "affected": "victim"
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:entity_scores",
+          "entity": "direct_attacker",
+          "scores": {
+            "black_flash": {
+              "min": -100,
+              "max": 0
+            },
+            "divergent_fist_charge": 10
+          }
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "gojo:minor_techniques/black_flash/divergent_fist_hit"
+        },
+        "enchanted": "attacker",
+        "affected": "attacker"
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:entity_scores",
+          "entity": "direct_attacker",
+          "scores": {
+            "black_flash": {
+              "min": 1,
+              "max": 4
+            },
+            "divergent_fist_charge": 10,
+            "black_flash_count": {
+              "min": 0,
+              "max": 2
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "gojo:minor_techniques/black_flash/black_flash_vfx"
+        },
+        "enchanted": "attacker",
+        "affected": "victim"
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:entity_scores",
+          "entity": "direct_attacker",
+          "scores": {
+            "black_flash": {
+              "min": 1,
+              "max": 4
+            },
+            "divergent_fist_charge": 10,
+            "black_flash_count": {
+              "min": 0,
+              "max": 2
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "gojo:minor_techniques/black_flash/black_flash_land"
+        },
+        "enchanted": "attacker",
+        "affected": "attacker"
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:entity_scores",
+          "entity": "direct_attacker",
+          "scores": {
+            "black_flash": {
+              "min": 1,
+              "max": 4
+            },
+            "divergent_fist_charge": 10,
+            "black_flash_count": 3
+          }
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "gojo:minor_techniques/black_flash/black_flash_vfx_final"
+        },
+        "enchanted": "attacker",
+        "affected": "victim"
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:entity_scores",
+          "entity": "direct_attacker",
+          "scores": {
+            "black_flash": {
+              "min": 1,
+              "max": 4
+            },
+            "divergent_fist_charge": 10,
+            "black_flash_count": 3
+          }
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "gojo:minor_techniques/black_flash/black_flash_land_final"
+        },
+        "enchanted": "attacker",
+        "affected": "attacker"
+      }
+    ],
+    "minecraft:damage": [
+      {
+        "requirements": {
+          "condition": "minecraft:entity_scores",
+          "entity": "direct_attacker",
+          "scores": {
+            "black_flash": {
+              "min": 1,
+              "max": 4
+            },
+            "divergent_fist_charge": 10,
+            "black_flash_count": {
+              "min": 0,
+              "max": 2
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:add",
+          "value": 8
+        }
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:entity_scores",
+          "entity": "direct_attacker",
+          "scores": {
+            "black_flash": {
+              "min": 1,
+              "max": 4
+            },
+            "divergent_fist_charge": 10,
+            "black_flash_count": 3
+          }
+        },
+        "effect": {
+          "type": "minecraft:add",
+          "value": 14
+        }
+      }
+    ],
+    "minecraft:knockback": [
+      {
+        "requirements": {
+          "condition": "minecraft:entity_scores",
+          "entity": "direct_attacker",
+          "scores": {
+            "black_flash": {
+              "min": 1,
+              "max": 4
+            },
+            "divergent_fist_charge": 10,
+            "black_flash_count": {
+              "min": 0,
+              "max": 2
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:add",
+          "value": 3
+        }
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:entity_scores",
+          "entity": "direct_attacker",
+          "scores": {
+            "black_flash": {
+              "min": 1,
+              "max": 4
+            },
+            "divergent_fist_charge": 10,
+            "black_flash_count": 3
+          }
+        },
+        "effect": {
+          "type": "minecraft:add",
+          "value": 8
+        }
+      }
+    ]
+  }
+}

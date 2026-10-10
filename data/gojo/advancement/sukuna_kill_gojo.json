@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:heartbreak_pottery_sherd",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": "Chapter 236",
+    "description": "As Sukuna, kill Gojo.",
+    "frame": "challenge",
+    "hidden": true
+  },
+  "parent": "gojo:sukuna_unlock",
+  "criteria": {
+    "bogo": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "team": "sukuna"
+        },
+        "entity": {
+          "team": "gojo"
+        }
+      }
+    }
+  }
+}

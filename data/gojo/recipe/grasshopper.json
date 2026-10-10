@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " x ",
+    "xcx",
+    " x "
+  ],
+  "key": {
+    "x": [
+      "minecraft:grass_block"
+    ],
+    "c": [
+      "minecraft:elytra"
+    ]
+  },
+  "result": {
+    "id": "minecraft:elytra",
+    "components": {
+      "minecraft:item_name": {
+        "text": "Grasshopper Wings",
+        "color": "#144200"
+      },
+      "minecraft:enchantments": {
+        "gojo:grasshopper": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_sword"
+    },
+    "title": "The 7:3 Sorcerer",
+    "description": "Land a perfect ratio."
+  },
+  "parent": "gojo:grashopper",
+  "criteria": {
+    "ratio": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

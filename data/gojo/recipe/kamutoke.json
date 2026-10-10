@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " vx",
+    "vxv",
+    "xv "
+  ],
+  "key": {
+    "x": [
+      "minecraft:copper_block"
+    ],
+    "v": [
+      "diamond"
+    ]
+  },
+  "result": {
+    "id": "minecraft:blaze_rod",
+    "components": {
+      "minecraft:custom_data": "{gojo:\"kamutoke\"}",
+      "minecraft:item_name": {
+        "color": "gold",
+        "text": "Supreme Martial Solution"
+      },
+      "minecraft:consumable": {
+        "consume_seconds": 1.2,
+        "animation": "trident"
+      },
+      "minecraft:lore": [
+        "Also known as the Kamutoke."
+      ],
+      "minecraft:attribute_modifiers": [
+        {
+          "id": "kamutoke:damage",
+          "type": "attack_damage",
+          "amount": 3,
+          "operation": "add_value",
+          "slot": "mainhand"
+        }
+      ],
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:use_cooldown": {
+        "seconds": 15,
+        "cooldown_group": "kamutoke"
+      }
+    }
+  }
+}

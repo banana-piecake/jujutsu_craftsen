@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "oxo",
+    "xvx",
+    "oxo"
+  ],
+  "key": {
+    "x": [
+      "minecraft:amethyst_shard"
+    ],
+    "o": [
+      "glass_pane"
+    ],
+    "v": [
+      "diamond"
+    ]
+  },
+  "result": {
+    "id": "minecraft:stick",
+    "components": {
+      "minecraft:consumable": {
+        "consume_seconds": 0,
+        "animation": "bow",
+        "on_consume_effects": []
+      },
+      "minecraft:item_model": "light_blue_stained_glass_pane",
+      "minecraft:item_name": {
+        "text": "Cursed Focus",
+        "color": "blue",
+        "shadow_color": 2097198079
+      },
+      "minecraft:food": {
+        "nutrition": 1,
+        "saturation": 1,
+        "can_always_eat": true
+      },
+      "minecraft:custom_data": {
+        "gojo": "focus"
+      },
+      "minecraft:use_cooldown": {
+        "seconds": 7,
+        "cooldown_group": "focus"
+      }
+    }
+  }
+}

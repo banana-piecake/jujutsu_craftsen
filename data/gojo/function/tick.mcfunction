@@ -155,3 +155,5 @@ scoreboard players add @e[scores={gojo_maximum_blue_cooldown=..360}] gojo_maximu
 scoreboard players add @e[scores={gojo_maximum_red_cooldown=..240}] gojo_maximum_red_cooldown 1
 scoreboard players add @e[scores={gojo_hollow_purple_cooldown=..6000}] gojo_hollow_purple_cooldown 1
 scoreboard players add @e[scores={gojo_infinite_void_cooldown=..12000}] gojo_infinite_void_cooldown 1
+
+execute as @a[tag=limitless] run function gojo:gojo_rework/tick

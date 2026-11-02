@@ -22,3 +22,6 @@ execute if entity @s[advancements={gojo:general_unlocks/reverse_cursed_technique
 
 execute if entity @s[scores={cursed_energy_reinforcement_cooldown=..60},nbt={SelectedItemSlot:2}] run title @s actionbar "On Cooldown"
 execute if entity @s[scores={cursed_energy_reinforcement_cooldown=60..},nbt={SelectedItemSlot:2}] run title @s actionbar "Cursed Energy Reinforcement"
+
+execute if entity @s[scores={gojo_moveset_switch_cooldown=..20},nbt={SelectedItemSlot:1}] run title @s actionbar "On Cooldown"
+execute if entity @s[scores={gojo_moveset_switch_cooldown=20..},nbt={SelectedItemSlot:1}] run title @s actionbar "Moveset Switch"

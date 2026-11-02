@@ -7,6 +7,6 @@ scoreboard players set @s gojo_maximum_blue_cooldown 0
 scoreboard players set @s gojo_maximum_red_cooldown 0
 scoreboard players set @s gojo_red_cooldown 0
 scoreboard players set @s gojo_teleport_cooldown 0
-
+scoreboard players set @s gojo_moveset_switch_cooldown 0
 scoreboard players set @s gojo_slot_primary 1
 scoreboard players set @s gojo_slot_secondary 1

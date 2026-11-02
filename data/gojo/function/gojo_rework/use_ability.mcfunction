@@ -11,4 +11,6 @@ execute if entity @s[advancements={gojo:general_unlocks/domain_expansion=true},s
 execute if entity @s[advancements={gojo:general_unlocks/reverse_cursed_technique=true},scores={reverse_cursed_technique_cooldown=120..},nbt={SelectedItemSlot:3}] run function gojo:basic_cursed_energy_abilities/reverse_cursed_technique
 execute if entity @s[scores={cursed_energy_reinforcement_cooldown=60..},nbt={SelectedItemSlot:2}] run function gojo:basic_cursed_energy_abilities/cursed_energy_reinforcement_use
 
+execute if entity @s[scores={gojo_moveset_switch_cooldown=20..},nbt={SelectedItemSlot:1}] run function gojo:gojo_rework/moveset_switch
+
 advancement revoke @s only gojo:gojo_rework/limitless_use

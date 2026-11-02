@@ -19,5 +19,8 @@
     [
       "e"
     ]
-  ]
+  ],
+  "rewards": {
+    "function": "gojo:cooldown_load"
+  }
 }

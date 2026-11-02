@@ -11,7 +11,7 @@
     "gr": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipe_id": "gojo:grasshopper"
+        "recipes": "gojo:grasshopper"
       }
     }
   }

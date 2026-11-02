@@ -29,17 +29,17 @@
     "minecraft:tick": [
       {
         "requirements": {
-          "condition": "minecraft:all_of",
+          "type": "minecraft:all_of",
           "terms": [
             {
-              "condition": "minecraft:entity_scores",
+              "type": "minecraft:entity_scores",
               "entity": "this",
               "scores": {
                 "ratiocooldown": 100
               }
             },
             {
-              "condition": "minecraft:entity_properties",
+              "type": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
                 "minecraft:type_specific/player": {

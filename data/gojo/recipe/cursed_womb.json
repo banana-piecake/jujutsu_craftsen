@@ -22,5 +22,6 @@
       },
       "minecraft:enchantment_glint_override": false
     }
-  }
+  },
+  "cookingtime": 200
 }

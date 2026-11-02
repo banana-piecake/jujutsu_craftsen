@@ -12,7 +12,7 @@
     "bloodmaip": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipe_id": "gojo:dashboots"
+        "recipes": "gojo:dashboots"
       }
     }
   },

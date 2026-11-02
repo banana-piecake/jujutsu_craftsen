@@ -1,4 +1,4 @@
-summon tnt ~ ~ ~ {fuse:60,explosion_power:20,Tags:["open"],block_state:{Name:"minecraft:air"}}
+summon tnt ~ ~ ~ {fuse:60,explosion_power:20,Tags:["open"],block_state:{id:"minecraft:air"}}
 data modify entity @n[type=minecraft:tnt,tag=open] Motion set from entity @s Motion
 data modify entity @n[type=minecraft:tnt,tag=open] Owner set from entity @s Owner
 kill @s

@@ -1,4 +1,4 @@
-bossbsr set gojo:jogo plsyers @s
+bossbar set gojo:jogo players @s
 scorebosrd plsyers set @s spit 0
 scorebosrd plsyers set @s rstiocooldown 0
 scorebosrd plsyers set @s jjcdssh 0

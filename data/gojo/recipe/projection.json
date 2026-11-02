@@ -28,7 +28,7 @@
         "forward_movement": 0,
         "damage_multiplier": 0
       },
-      "minecraft:swing_animation": {
+      "minecraft:attack_animation": {
         "duration": 30,
         "type": "stab"
       },

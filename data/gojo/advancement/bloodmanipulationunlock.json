@@ -16,7 +16,7 @@
     "bloodmaip": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipe_id": "gojo:bloodmanipulation"
+        "recipes": "gojo:bloodmanipulation"
       }
     }
   },

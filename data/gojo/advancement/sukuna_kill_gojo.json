@@ -17,10 +17,18 @@
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "player": {
-          "team": "sukuna"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "team": "sukuna"
+          }
         },
         "entity": {
-          "team": "gojo"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "team": "gojo"
+          }
         }
       }
     }

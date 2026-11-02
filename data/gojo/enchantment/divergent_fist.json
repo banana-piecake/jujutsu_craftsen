@@ -19,7 +19,7 @@
     "minecraft:post_attack": [
       {
         "requirements": {
-          "condition": "minecraft:entity_scores",
+          "type": "minecraft:entity_scores",
           "entity": "direct_attacker",
           "scores": {
             "black_flash": {
@@ -38,7 +38,7 @@
       },
       {
         "requirements": {
-          "condition": "minecraft:entity_scores",
+          "type": "minecraft:entity_scores",
           "entity": "direct_attacker",
           "scores": {
             "black_flash": {
@@ -57,7 +57,7 @@
       },
       {
         "requirements": {
-          "condition": "minecraft:entity_scores",
+          "type": "minecraft:entity_scores",
           "entity": "direct_attacker",
           "scores": {
             "black_flash": {
@@ -80,7 +80,7 @@
       },
       {
         "requirements": {
-          "condition": "minecraft:entity_scores",
+          "type": "minecraft:entity_scores",
           "entity": "direct_attacker",
           "scores": {
             "black_flash": {
@@ -103,7 +103,7 @@
       },
       {
         "requirements": {
-          "condition": "minecraft:entity_scores",
+          "type": "minecraft:entity_scores",
           "entity": "direct_attacker",
           "scores": {
             "black_flash": {
@@ -123,7 +123,7 @@
       },
       {
         "requirements": {
-          "condition": "minecraft:entity_scores",
+          "type": "minecraft:entity_scores",
           "entity": "direct_attacker",
           "scores": {
             "black_flash": {
@@ -145,7 +145,7 @@
     "minecraft:damage": [
       {
         "requirements": {
-          "condition": "minecraft:entity_scores",
+          "type": "minecraft:entity_scores",
           "entity": "direct_attacker",
           "scores": {
             "black_flash": {
@@ -166,7 +166,7 @@
       },
       {
         "requirements": {
-          "condition": "minecraft:entity_scores",
+          "type": "minecraft:entity_scores",
           "entity": "direct_attacker",
           "scores": {
             "black_flash": {
@@ -186,7 +186,7 @@
     "minecraft:knockback": [
       {
         "requirements": {
-          "condition": "minecraft:entity_scores",
+          "type": "minecraft:entity_scores",
           "entity": "direct_attacker",
           "scores": {
             "black_flash": {
@@ -207,7 +207,7 @@
       },
       {
         "requirements": {
-          "condition": "minecraft:entity_scores",
+          "type": "minecraft:entity_scores",
           "entity": "direct_attacker",
           "scores": {
             "black_flash": {

@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "gojo:grasshopper"
+        "recipes": "gojo:grasshopper"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

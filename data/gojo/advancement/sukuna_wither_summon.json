@@ -13,17 +13,19 @@
     "summoned": {
       "conditions": {
         "player": {
-          "team": "sukuna"
-        },
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "type": "wither"
-            }
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "team": "sukuna"
           }
-        ]
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "wither"
+          }
+        }
       },
       "trigger": "minecraft:summoned_entity"
     }

@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "gojo:bloodmanipulation"
+        "recipes": "gojo:bloodmanipulation"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

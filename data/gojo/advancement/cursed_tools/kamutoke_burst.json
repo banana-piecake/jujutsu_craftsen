@@ -4,9 +4,13 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "player": {
-          "minecraft:type_specific/player": {
-            "input": {
-              "sneak": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "input": {
+                "sneak": true
+              }
             }
           }
         },

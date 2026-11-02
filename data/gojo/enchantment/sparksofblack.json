@@ -20,7 +20,7 @@
     "minecraft:post_attack": [
       {
         "requirements": {
-          "condition": "minecraft:entity_properties",
+          "type": "minecraft:entity_properties",
           "entity": "attacker",
           "predicate": {
             "effects": {
@@ -39,7 +39,7 @@
       },
       {
         "requirements": {
-          "condition": "minecraft:entity_properties",
+          "type": "minecraft:entity_properties",
           "entity": "attacker",
           "predicate": {
             "effects": {
@@ -60,7 +60,7 @@
     "minecraft:knockback": [
       {
         "requirements": {
-          "condition": "minecraft:entity_properties",
+          "type": "minecraft:entity_properties",
           "entity": "direct_attacker",
           "predicate": {
             "effects": {

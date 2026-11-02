@@ -8,4 +8,7 @@ execute if entity @s[advancements={gojo:gojo_rework/teleportation=true},scores={
 execute if entity @s[advancements={gojo:gojo_rework/hollow_purple=true},scores={gojo_hollow_purple_cooldown=6000..},nbt={SelectedItemSlot:7}] run function gojo:purple_new/activate
 execute if entity @s[advancements={gojo:general_unlocks/domain_expansion=true},scores={gojo_infinite_void_cooldown=12000..},nbt={SelectedItemSlot:8}] run function gojo:domain
 
+execute if entity @s[advancements={gojo:general_unlocks/reverse_cursed_technique=true},scores={reverse_cursed_technique_cooldown=120..},nbt={SelectedItemSlot:3}] run function gojo:basic_cursed_energy_abilities/reverse_cursed_technique
+execute if entity @s[scores={cursed_energy_reinforcement_cooldown=60..},nbt={SelectedItemSlot:2}] run function gojo:basic_cursed_energy_abilities/cursed_energy_reinforcement_use
+
 advancement revoke @s only gojo:gojo_rework/limitless_use

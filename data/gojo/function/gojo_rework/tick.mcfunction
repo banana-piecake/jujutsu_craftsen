@@ -16,3 +16,5 @@ execute if entity @s[advancements={gojo:gojo_rework/max_blue=true},scores={gojo_
 execute if entity @s[advancements={gojo:gojo_rework/teleportation=true},scores={gojo_teleport_cooldown=120..},nbt={SelectedItemSlot:6}] run title @s actionbar "Teleport"
 execute if entity @s[advancements={gojo:gojo_rework/hollow_purple=true},scores={gojo_hollow_purple_cooldown=6000..},nbt={SelectedItemSlot:7}] run title @s actionbar "Hollow Purple"
 execute if entity @s[advancements={gojo:general_unlocks/domain_expansion=true},scores={gojo_infinite_void_cooldown=12000..},nbt={SelectedItemSlot:8}] run title @s actionbar "Domain Expansion"
+
+execute if entity @s[advancements={gojo:general_unlocks/domain_expansion=true},scores={gojo_infinite_void_cooldown=120..},nbt={SelectedItemSlot:8}] run title @s actionbar "Reverse Cursed Technique"

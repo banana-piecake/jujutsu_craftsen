@@ -83,3 +83,6 @@ scoreboard objectives add gojo_teleport_cooldown dummy
 scoreboard objectives add gojo_slot_primary dummy
 scoreboard objectives add gojo_slot_secondary dummy
 
+#general ce abilities
+scoreboard objectives add cursed_energy_reinforcement_cooldown dummy
+scoreboard objectives add reverse_cursed_technique_cooldown dummy

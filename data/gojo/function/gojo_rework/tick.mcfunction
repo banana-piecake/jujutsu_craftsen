@@ -17,4 +17,8 @@ execute if entity @s[advancements={gojo:gojo_rework/teleportation=true},scores={
 execute if entity @s[advancements={gojo:gojo_rework/hollow_purple=true},scores={gojo_hollow_purple_cooldown=6000..},nbt={SelectedItemSlot:7}] run title @s actionbar "Hollow Purple"
 execute if entity @s[advancements={gojo:general_unlocks/domain_expansion=true},scores={gojo_infinite_void_cooldown=12000..},nbt={SelectedItemSlot:8}] run title @s actionbar "Domain Expansion"
 
-execute if entity @s[advancements={gojo:general_unlocks/domain_expansion=true},scores={gojo_infinite_void_cooldown=120..},nbt={SelectedItemSlot:8}] run title @s actionbar "Reverse Cursed Technique"
+execute if entity @s[advancements={gojo:general_unlocks/reverse_cursed_technique=true},scores={reverse_cursed_technique_cooldown=120..},nbt={SelectedItemSlot:3}] run title @s actionbar "Reverse Cursed Technique"
+execute if entity @s[advancements={gojo:general_unlocks/reverse_cursed_technique=true},scores={reverse_cursed_technique_cooldown=..120},nbt={SelectedItemSlot:3}] run title @s actionbar "On Cooldown"
+
+execute if entity @s[scores={cursed_energy_reinforcement_cooldown=..60},nbt={SelectedItemSlot:2}] run title @s actionbar "On Cooldown"
+execute if entity @s[scores={cursed_energy_reinforcement_cooldown=60..},nbt={SelectedItemSlot:2}] run title @s actionbar "Cursed Energy Reinforcement"

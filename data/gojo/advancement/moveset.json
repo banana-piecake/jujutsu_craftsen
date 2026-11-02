@@ -16,6 +16,6 @@
     }
   },
   "rewards": {
-    "function": "gojo:give"
+    "function": "gojo:gojo_rework/limitless_select"
   }
 }
